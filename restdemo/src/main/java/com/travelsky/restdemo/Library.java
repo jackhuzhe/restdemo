@@ -7,7 +7,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.QueryParam;
 
-//@Path("/library")
+@Path("/library")
 public class Library {
 	@GET
 	@Path("/books")
